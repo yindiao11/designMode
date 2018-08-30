@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="expression" />
         <module name="mediator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mediator" target="8" />
+      <module name="expression" target="1.5" />
+      <module name="mediator" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
