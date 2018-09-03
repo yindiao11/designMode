@@ -16,8 +16,7 @@ public class ObjectStructure {
      */
     public void action(Visitor visitor){
 
-        for(Node node : nodes)
-        {
+        for(Node node : nodes) {
             node.accept(visitor);
         }
 

@@ -13,6 +13,9 @@ public class Client {
         ctx.assign(x, false);
         ctx.assign(y, true);
 
+
+        Expression or = new And(c,x);
+
         Expression exp = new Or(new And(c,x) , new And(y,new Not(x)));
         System.out.println("x=" + x.interpret(ctx));
         System.out.println("y=" + y.interpret(ctx));
