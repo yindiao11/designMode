@@ -8,6 +8,9 @@
       <list>
         <option value="$PROJECT_DIR$/mediator/pom.xml" />
         <option value="$PROJECT_DIR$/expression/pom.xml" />
+        <option value="$PROJECT_DIR$/visitor/pom.xml" />
+        <option value="$PROJECT_DIR$/state/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>

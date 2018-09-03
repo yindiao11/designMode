@@ -8,11 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="expression" />
         <module name="mediator" />
+        <module name="memento" />
+        <module name="state" />
+        <module name="visitor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="expression" target="1.5" />
-      <module name="mediator" target="1.5" />
+      <module name="designMode" target="1.8" />
+      <module name="expression" target="1.8" />
+      <module name="mediator" target="1.8" />
+      <module name="memento" target="1.8" />
+      <module name="state" target="1.8" />
+      <module name="visitor" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
