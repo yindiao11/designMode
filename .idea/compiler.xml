@@ -6,20 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="architect" />
+        <module name="beautiful" />
         <module name="expression" />
         <module name="mediator" />
         <module name="memento" />
         <module name="state" />
-        <module name="visitor" />
+        <module name="visitor1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="architect" target="1.8" />
+      <module name="beautiful" target="1.8" />
       <module name="designMode" target="1.8" />
-      <module name="expression" target="1.8" />
-      <module name="mediator" target="1.8" />
+      <module name="expression" target="1.5" />
+      <module name="mediator" target="1.5" />
       <module name="memento" target="1.8" />
-      <module name="state" target="1.8" />
-      <module name="visitor" target="1.8" />
+      <module name="state" target="1.5" />
+      <module name="visitor1" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
