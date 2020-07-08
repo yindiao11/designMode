@@ -16,6 +16,8 @@
         <module>memento</module>
         <module>beautiful</module>
         <module>architect</module>
+        <module>decorator</module>
+        <module>composite</module>
     </modules>
 
     <dependencies>
